@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles/style.css">
+    
+    <title>Your next adventure</title>
+</head>
+<body class="register">
+   <!-- Navigation Bar -->
+   <div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="register.html">Register</a>
+    <a href="content.html">Content</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Hearo Section - Headline with Welcome Text -->
+   <div class="hero">
+      <h1>BOOK YOUR NEXT ADVENTURE WITH US</h1>
+      
+      <p>
+         We are a Surf School on the beautiful Lofoten in Norway.
+         <br>
+        Whether you’re a beginner or an experienced surfer, we’ve got the perfect adventure waiting for you. 
+        <br>
+        Our surf school offers lessons for all levels, along with equipment rental and guided surf tours.
+        But it’s not all about surfing! Don’t miss the chance to enjoy a breathtaking sunset over the sea. 
+        <br>
+        We also offer sunset watching trips, where you can relax and take in the stunning views of the Norwegian horizon.
+        <br>
+        <br>
+        Booking your experience is easy – simply choose your preferred package and preferred type of accommodation and let us take care of the rest!
+        <br>
+        Join us for an unforgettable adventure, and create some incredible memories – as the waves dance and the sun sets.
+      </p>
+
+      <p>
+        Please fill out the following form to book your trip. 
+      </p>
+  </div>
+
+
+  <!-- Form to book the trip -->
+<div class="book">
+  
+
+      <div class="room">
+      
+        <p class="gtext">Choose your room</p>
+    
+        <form>
+          <input type="radio" id="room1" name="room" value="Bike">
+          <label for="room1"> single room</label><br>
+          
+          <input type="radio" id="room2" name="room" value="Car">
+          <label for="room2"> shared room 4 person</label><br>
+        
+        </form>
+  
+      </div>
+  
+    
+     <div class="package">
+  
+      <p class="gtext">Choose your package</p>
+  
+      <form>
+        <input type="radio" id="package1" name="package" value="Sunset">
+        <label for="package1"> only sunset</label><br>
+        
+        <input type="radio" id="package2" name="package" value="Surf">
+        <label for="package2"> only surf</label><br>
+  
+        <input type="radio" id="package3" name="package" value="Both">
+        <label for="package3"> count me in for the whole package</label>
+      </form>
+  
+     </div>
+
+   
+
+    <div class="contact">
+      <p class="gtext">Contact</p>
+
+      <form>
+        <label for="name">Name & Surname</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="city">Postal Code & City</label><br>
+        <input type="text" id="city" name="city">
+      </form>
+
+    </div>
+
+
+   <div class="nutrition">
+    <p class="gtext">Nutrition</p>
+
+    <form>
+      <input type="checkbox" id="vegan" name="nutrition" value="vegan">
+      <label for="vegan">vegan</label><br>
+
+      <input type="checkbox" id="gluten" name="nutrition" value="gluten">
+      <label for="gluten">gluten intolerant</label><br>
+
+      <input type="checkbox" id="lactose" name="nutrition" value="lactose">
+      <label for="lactose">lactose free</label>
+
+      <input type="checkbox" id="allergie" name="nutrition" value="allergie">
+      <label for="allergie">other allergies</label>
+
+    </form>
+   </div>
+    
+</div>
+
+
+<!-- Terms and Conditions -->
+<div class="terms">
+
+  <h3>Terms and Conditions</h3>
+
+<p class="normal">
+  Check in & Check out Policy
+</p>
+
+<p class="medium">
+  We offer the following check-out times and policies.
+  Regular Check-In:
+    15:00 – 18:00
+    Feel free to arrive from 09:00, although your room may only be available at 15:00.
+
+    Evening Check-In:
+    18:00 - 22:00
+    You'll receive the key to your room; the official check-in process takes place the next morning.
+</p>
+
+  <p class="normal">
+    Cancellation Policy
+    
+  </p>
+
+<p class="medium">
+  Until 1 Month before your stay: 
+  
+  <p class="large">
+    We keep 50% of your deposit as a cancellation fee. The remaining amount will be converted into a voucher, which you can use to rebook your stay, valid for one year.
+
+  </p>
+
+  
+    <p class="medium">
+      Until 2 weeks before your stay: 
+    </p>
+      
+      <p class="large">
+        We will keep 100% of your deposit money when the cancellation is made two weeks before the start. No refund or voucher will be issued.
+      </p>
+
+  
+
+  <p class="normal">
+    TERMS & CONDITIONS
+  </p>
+
+<p class="medium">
+  This webpage you are viewing is owned, operated and controlled by Sunset Inc.. In these terms and conditions Sunset Inc. is referred to as “we”, “us”, “our”. By booking your stay, surf lessons or any other services with Sunset Inc. you agree to all of our terms and conditions and will be further on referred to as Client, Customer, Guest or You.
+</p>
+
+
+<form class="questions">
+  <label for="questions">Any Questions?</label><br>
+  <input type="text" id="questions" name="questions" placeholder="let us know ..." ><br>
+ 
+</form>
+</div>
+
+<!-- Submit Button & required confirmation -->
+<div class="submit">
+<form action="confirmation.html" target="_blank">
+  <input type="checkbox" id="yes" name="terms" value="yes" required>
+  <label for="yes">I have read & accept the Terms & Conditions</label><br>
+
+  <input type="submit" id="submit" value="Book now"/>
+</form>
+  
+  </div>
+
+
+ <!-- Footer -->
+<div class="footer">
+  <span class="copyright">&copy; 2024 Sunset Inc. </span>
+
+  <div class="booking">
+      <a href="register.html">Book here!</a>
+  </div>
+
+
+  <div class="instagram-icon">
+      <a href="https://www.instagram.com/_frida_sea_/" target="_blank"><img src="Styles/instagram-icon.svg" alt="Instagram-Icon"></a>
+
+  </div>
+
+</div>
+
+</body>
+</html>
